@@ -46,5 +46,14 @@ while True:
     tweetText1 = tweetUser+ ": "+tweetText
     long_string = tweetText1
 
+	#looping 4 times to prevent excessive api calls
     loop_string(long_string, lcd, framebuffer, 1, 16)
-    time.sleep(30) # To help avoid exessive API calls to twitter
+    time.sleep(10)
+	loop_string(long_string, lcd, framebuffer, 1, 16)
+    time.sleep(10)
+	loop_string(long_string, lcd, framebuffer, 1, 16)
+    time.sleep(10)
+	loop_string(long_string, lcd, framebuffer, 1, 16)
+    time.sleep(10)
+	loop_string(long_string, lcd, framebuffer, 1, 16)
+    time.sleep(10)
